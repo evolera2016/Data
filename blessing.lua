@@ -14,11 +14,11 @@ local blessConfig = {
     },
     [3] = { -- Container Loss
         lossPercent = 10, -- % chance to lose backpack WITHOUT blessings
-        blessPercent = 0 -- % chance to lose backpack WITH blessings
+        blessPercent = 10 -- % chance to lose backpack WITH blessings
     },
     [4] = { -- Equipment Loss
         lossPercent = 10, -- % chance to lose each individual item equipped on a player WITHOUT blessings
-        blessPercent = 0 -- % chance to lose each individual item equipped on a player WITH blessings
+        blessPercent = 10 -- % chance to lose each individual item equipped on a player WITH blessings
     }
 }
 function onPrepareDeath(cid, deathList)
