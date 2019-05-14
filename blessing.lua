@@ -1,7 +1,7 @@
 local blessingStorageValue = 30129 -- The storage value you will use to store a players blessings
 local blessConfig = {
     [0] = { -- Experience Loss
-        lossPercent = 0, -- % of experience a player will lose when dying WITHOUT blessings
+        lossPercent = 10, -- % of experience a player will lose when dying WITHOUT blessings
         blessPercent = 0 -- % of experience a player will lose when dying WITH blessings
     },
     [1] = { -- Magic Level Loss
